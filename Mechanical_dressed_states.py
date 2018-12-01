@@ -4,7 +4,7 @@ Created on Thu Oct 04 10:31:06 2018
 
 This script investigates the mechanical interaction of spin states in an NV center's triplet ground state.
 We choose to discuss only the mI=+1 subspace of the nitrogen 14 hyperfine states, and also take into
-account additional spin coupling (A) to some spin 1/2 systrm in the lattice (such as carbon 13).
+account additional spin coupling (A) to some spin 1/2 system in the lattice (such as carbon 13).
 We compute the energy of dressed states that emerge from a mechanical coupling between the ms=+1 and ms = -1 states (Omega_m),
 plot their magnetic field dependance and quantify their protection from magnetic noise.
 
