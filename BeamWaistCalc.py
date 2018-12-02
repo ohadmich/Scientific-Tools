@@ -2,8 +2,8 @@
 """
 Created on Fri Sep 29 13:08:17 2017
 
-This code gets an image of a laser beam as an input, fits the data to a 2D Gaussian beam,
-plots the data with the fit laid over it and displays the waist value with 1 std error.  
+This code takes an image of a laser beam as an input, fits the data to a 2D Gaussian beam,
+plots the fit laid over the data and displays the waist value next to a one standard deviation error size.  
 **Please make sure that the pixel size value is updated and correct for your camera**
 
 @author: Ohad Michel
@@ -60,6 +60,7 @@ for i in range(len(datafiles)):
     # Show beam profile and fit
     plt.figure()
     plt.pcolormesh(X,Y, beam_data) # Plot beam
+    plt.colorbar(label = "Intensity") # Add colorbar
     plt.contour(X,Y, Gaussian((X,Y),A,B,x0,y0,W).reshape(X.shape),10, colors = 'w') # plot fit on top
     W_acc = int(-np.floor(np.log10(fit_err[4]))) # compute accuracy based on fit error
     plt.title("Waist = " + str(round(W,W_acc)) + r"$\pm$" + str(round(fit_err[4], W_acc)) + r"$\mu m$")
