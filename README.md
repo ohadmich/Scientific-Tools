@@ -4,9 +4,9 @@ Here is a short summary of the tools and some examples of the outputs:
 
 ## Bfield Estimator
 Computes the magnitude of the magnetic field (B0) and the angle relative to the NV axis (theta)
-based on the measured frequencies of the 0-->1 and 0-->-1 transitions (f = [f1,f2])
+based on the measured frequencies of the ms=0-->ms=1 and ms=0-->ms=-1 transitions (f = [f1,f2])
 
-In the following example BfieldEstimator was used to estimate the magnetic field magnitude and direction based on the transition frequencies extracted from a fit to the data:
+In the following example BfieldEstimator was used to estimate the magnetic field magnitude and direction based on the transition frequencies between the spin states in the NV centers's ground state which were extracted from a fit to the data:
 
 <img src ="https://github.com/ohadmich/Scientific-Tools/blob/master/Images/BfieldEstimator.png" width = "600">
 
@@ -14,7 +14,7 @@ In the following example BfieldEstimator was used to estimate the magnetic field
 This code takes an image of a laser beam as an input, fits the data to a 2D Gaussian beam,
 plots the fit laid over the data and displays the waist value next to a one standard deviation error size.
 
-Example:
+Here is an example for a 2D Gaussian fit (white contours) to a beam image (color scale) and the extracted waist value and the std error magnitude:
 
 <img src ="https://github.com/ohadmich/Scientific-Tools/blob/master/Images/BeamWaistCalc.png" width = "600">
 
