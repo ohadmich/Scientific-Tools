@@ -1,6 +1,6 @@
 # Scientific_Tools
 This repository contains some useful scientific functions that I created for my daily research work. 
-Here is a short summary of the tools and some examples of the outputs:
+Below you can find a short summary of the tools and some output examples.
 
 ## Bfield Estimator
 Computes the magnitude of the magnetic field (B0) and the angle relative to the NV axis (theta)
