@@ -14,6 +14,9 @@ the spin resonance frequency.
 
 Output example:
 
+<img src ="https://github.com/ohadmich/Scientific-Tools/blob/master/Images/Pulse_shaping1.png" width = "400"><img src ="https://github.com/ohadmich/Scientific-Tools/blob/master/Images/Pulse_shaping2.png" width = "400">
+
+<img src ="https://github.com/ohadmich/Scientific-Tools/blob/master/Images/Pulse_shaping3.png" width = "400"><img src ="https://github.com/ohadmich/Scientific-Tools/blob/master/Images/Pulse_shaping4.png" width = "400">
 
 ## Mechanical Dressed States
 This script investigates the mechanical interaction of spin states in an NV center's triplet ground state.
@@ -24,7 +27,7 @@ plot their magnetic field dependance and quantify their protection from magnetic
 
 Output example:
 
-<img src ="https://github.com/ohadmich/Scientific-Tools/blob/master/Mechanical_dressed_states.png" width = "600">
+<img src ="https://github.com/ohadmich/Scientific-Tools/blob/master/Images/Mechanical_dressed_states.png" width = "600">
 
 ## Beam Waist Calculator
 This code takes an image of a laser beam as an input, fits the data to a 2D Gaussian beam,
@@ -32,4 +35,12 @@ plots the fit laid over the data and displays the waist value next to a one stan
 
 Example:
 
-<img src ="https://github.com/ohadmich/Scientific-Tools/blob/master/BeamWaistCalc.png" width = "600">
+<img src ="https://github.com/ohadmich/Scientific-Tools/blob/master/Images/BeamWaistCalc.png" width = "600">
+
+## Bfield Estimator
+Computes the magnitude of the magnetic field (B0) and the angle relative to the NV axis (theta)
+based on the measured frequencies of the 0-->1 and 0-->-1 transitions (f = [f1,f2])
+
+In the following example BfieldEstimator was used to estimate the magnetic field magnitude and direction based on the transition frequencies extracted from a fit to the data:
+
+<img src ="https://github.com/ohadmich/Scientific-Tools/blob/master/Images/BfieldEstimator.png" width = "600">
