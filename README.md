@@ -14,7 +14,7 @@ In the following example BfieldEstimator was used to estimate the magnetic field
 This code takes an image of a laser beam as an input, fits the data to a 2D Gaussian beam,
 plots the fit laid over the data and displays the waist value next to a one standard deviation error size.
 
-Here is an example for a 2D Gaussian fit (white contours) to a beam image (color scale) and the extracted waist value and the std error magnitude:
+Here is an example for a 2D Gaussian fit (white contours) to a beam image (color scale) and the extracted waist value:
 
 <img src ="https://github.com/ohadmich/Scientific-Tools/blob/master/Images/BeamWaistCalc.png" width = "600">
 
