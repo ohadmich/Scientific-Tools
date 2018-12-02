@@ -4,7 +4,7 @@ Here is a short summary of the tools and some examples of the outputs:
 
 ## Bfield Estimator
 Computes the magnitude of the magnetic field (B0) and the angle relative to the NV axis (theta)
-based on the measured frequencies of the ms=0-->ms=1 and ms=0-->ms=-1 transitions (f = [f1,f2])
+based on the measured frequencies of the ms=0-->ms=1 and ms=0-->ms=-1 transitions (f = [f0,f1])
 
 In the following example BfieldEstimator was used to estimate the magnetic field magnitude and direction based on the transition frequencies between the spin states in the NV centers's ground state which were extracted from a fit to the data:
 
