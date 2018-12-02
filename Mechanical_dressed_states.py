@@ -125,7 +125,7 @@ def plotvsB(Om, ST):
     plt.fill_between(B_range[:-1], -ST, ST, where =  np.abs(slope_Eup)<ST , color = 'blue', alpha = 0.25)
     plt.fill_between(B_range[:-1], -ST, ST, where =  np.abs(slope_Edp)<ST , color = 'red', alpha = 0.25)
     plt.xlabel('Magnetic field [Gauss]')
-    plt.ylabel('slope [MHz/Gauss]')
+    plt.ylabel('Slope [MHz/Gauss]')
     plt.title('Slope vs. Magnetic Field')
     plt.legend(['Up Plus', 'Down Plus'], loc=0)
     plt.tight_layout()
