@@ -2,6 +2,22 @@
 This repository contains some useful scientific functions that I created for my daily research work. 
 Here is a short summary of the tools and some examples of the outputs:
 
+## Bfield Estimator
+Computes the magnitude of the magnetic field (B0) and the angle relative to the NV axis (theta)
+based on the measured frequencies of the 0-->1 and 0-->-1 transitions (f = [f1,f2])
+
+In the following example BfieldEstimator was used to estimate the magnetic field magnitude and direction based on the transition frequencies extracted from a fit to the data:
+
+<img src ="https://github.com/ohadmich/Scientific-Tools/blob/master/Images/BfieldEstimator.png" width = "600">
+
+## Beam Waist Calculator
+This code takes an image of a laser beam as an input, fits the data to a 2D Gaussian beam,
+plots the fit laid over the data and displays the waist value next to a one standard deviation error size.
+
+Example:
+
+<img src ="https://github.com/ohadmich/Scientific-Tools/blob/master/Images/BeamWaistCalc.png" width = "600">
+
 ## Pulse Shaping
 This code simulates the time evolution of a spin under the application of an arbitrary shaped microwave pulse.
 Start by defining a pulse shape by setting the pulse amplitude (Omega_t) and frequency (delta_t) functions, make sure that 
@@ -28,19 +44,3 @@ plot their magnetic field dependance and quantify their protection from magnetic
 Output example:
 
 <img src ="https://github.com/ohadmich/Scientific-Tools/blob/master/Images/Mechanical_dressed_states.png" width = "600">
-
-## Beam Waist Calculator
-This code takes an image of a laser beam as an input, fits the data to a 2D Gaussian beam,
-plots the fit laid over the data and displays the waist value next to a one standard deviation error size.
-
-Example:
-
-<img src ="https://github.com/ohadmich/Scientific-Tools/blob/master/Images/BeamWaistCalc.png" width = "600">
-
-## Bfield Estimator
-Computes the magnitude of the magnetic field (B0) and the angle relative to the NV axis (theta)
-based on the measured frequencies of the 0-->1 and 0-->-1 transitions (f = [f1,f2])
-
-In the following example BfieldEstimator was used to estimate the magnetic field magnitude and direction based on the transition frequencies extracted from a fit to the data:
-
-<img src ="https://github.com/ohadmich/Scientific-Tools/blob/master/Images/BfieldEstimator.png" width = "600">
